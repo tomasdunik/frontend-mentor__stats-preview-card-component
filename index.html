@@ -9,6 +9,7 @@
     <!-- ==================== CSS ==================== -->
     <link rel="stylesheet" href="css-reset.css" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
 
     <!-- ==================== Icon ==================== -->
     <link
@@ -28,7 +29,8 @@
   </head>
   <body>
     <main class="card">
-      <img src="./images/image-header-mobile.jpg" alt="People in the office" />
+      <div class="image"></div>
+
       <div class="card-content">
         <h1>
           Get <span class="highlighted">insights</span> that help your business
@@ -38,12 +40,20 @@
           Discover the benefits of data analytics and make better decisions
           regarding revenue, customer experience, and overall efficiency.
         </h2>
-        <p class="number">10k+</p>
-        <p class="name">COMPANIES</p>
-        <p class="number">314</p>
-        <p class="name">TEMPLATES</p>
-        <p class="number">12M+</p>
-        <p class="name">QUERIES</p>
+        <div class="numbers">
+          <div class="first">
+            <p class="number">10k+</p>
+            <p class="name">COMPANIES</p>
+          </div>
+          <div class="second">
+            <p class="number">314</p>
+            <p class="name">TEMPLATES</p>
+          </div>
+          <div class="third">
+            <p class="number">12M+</p>
+            <p class="name">QUERIES</p>
+          </div>
+        </div>
       </div>
     </main>
   </body>
