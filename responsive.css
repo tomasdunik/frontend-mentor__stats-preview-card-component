@@ -62,4 +62,11 @@
   .highlighted {
     color: var(--clr-accent);
   }
+  .image {
+    background-image: linear-gradient(
+        rgba(107, 0, 173, 0.5) 100%,
+        rgba(0, 0, 0, 0.1) 100%
+      ),
+      url("./images/image-header-desktop.jpg");
+  }
 }
